@@ -1,0 +1,27 @@
+# データファイル
+data/
+
+# キャッシュ
+.cache/
+
+# Dockerボリューム
+ts/state/
+ts/config/
+
+# 環境変数ファイル
+.env
+
+# モデル重み
+*.pt
+
+# terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+.terraform.lock.hcl
+
+# 圧縮ファイル
+*.zip
+*.tar.gz
+
+package
